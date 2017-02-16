@@ -1,0 +1,4 @@
+export ROS_MASTER_URI=http://deeplearning02w.eecs.cwru.edu:11311
+export ROS_IP=129.22.143.20
+
+
