@@ -10,9 +10,11 @@ address=$(ip route get 8.8.8.8 | awk '{print $NF; exit}')
 echo "Setting var ROS_IP = $address, which is your IP address"
 export ROS_IP=$address
 
-echo "Setting var ROS_MASTER_URI = http://deeplearning02w.eecs.cwru.edu:11311, which is the Kobuki robot IP"
-export ROS_MASTER_URI=http://deeplearning02w.eecs.cwru.edu:11311
-
+# Set the remote robot systems IP (totally static)
+master_address="http://deeplearning03w.eecs.cwru.edu:11311"
+master_address="172.23.8.123"
+echo "Setting var ROS_MASTER_URI = $master_address, which is the Kobuki robot IP"
+export ROS_MASTER_URI=$master_address
 # Gotta 'host', right?
 
 echo "Now, do you need to 'host' something?"
