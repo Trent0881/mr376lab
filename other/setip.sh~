@@ -12,9 +12,12 @@ export ROS_IP=$address
 
 # Set the remote robot systems IP (totally static)
 master_address="http://deeplearning03w.eecs.cwru.edu:11311"
-master_address="172.23.8.123"
 echo "Setting var ROS_MASTER_URI = $master_address, which is the Kobuki robot IP"
 export ROS_MASTER_URI=$master_address
 # Gotta 'host', right?
 
+export ROS_MASTER_URI=0
+export ROS_IP=0
+
 echo "Now, do you need to 'host' something?"
+

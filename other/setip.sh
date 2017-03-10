@@ -17,3 +17,4 @@ export ROS_MASTER_URI=$master_address
 # Gotta 'host', right?
 
 echo "Now, do you need to 'host' something?"
+
