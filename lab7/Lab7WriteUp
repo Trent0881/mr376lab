@@ -1,0 +1,28 @@
+Epsilon Group
+
+Dr. Newman
+
+EECS 376/476 - Mobile Robotics
+
+April 13, 2017
+
+Lab 8: Jinx Hallway Navigation Methods
+
+
+
+For the lab:
+
+Combine PSs 6 7 and 8
+
+Have Jinx start in front of the elevator, facing the lab door.  Command Jinx to go to the service elevator, turn around, and return to the original starting position.  
+While en route, Jinx must stop if there is an obstruction (e.g., walk in front of the robot).  
+
+Demonstrate 3 different modes of motion control:
+
+1) open-loop commands (graceful alarm responses, multiline path following from PS6)
+
+2) linear feedback control based on odometry (odometry closed-loop path following from PS7)
+
+3) linear feedback based on integrated odometry and AMCL (AMCL closed-loop path following from PS8)
+
+Submit your code, video and a report on your findings.
