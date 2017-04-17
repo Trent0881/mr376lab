@@ -18,11 +18,12 @@ We found out that by linking together previous nodes and modifying slightly the 
 to move like in each of the three previous problem assignments. The hardest part was figuring out how to have the robot move 
 after undoing the e stop without already proceeding on it's path while e stopped.
 
-	Changed the .yaml file of the map. Change origin x from -100 to -95
-	The output of angular speed is reversed.
-	Path: (4.5 ,0)--(4.5 ,-30.5)—(4 ,-30.5)—( 5,-30.5)—(5 ,0)—(0 ,0)
-	Need to relaunch jinx every time or odom will miscount even it is reset.
-	Jinx has a little overshoot while moving.
+
+Changed the .yaml file of the map. Change origin x from -100 to -95
+The output of angular speed is reversed.
+Path: (4.5 ,0)--(4.5 ,-30.5)—(4 ,-30.5)—( 5,-30.5)—(5 ,0)—(0 ,0)
+Need to relaunch jinx every time or odom will miscount even it is reset.
+Jinx has a little overshoot while moving.
 
 
 Open Loop Video: 
