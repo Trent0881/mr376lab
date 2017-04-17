@@ -1,0 +1,38 @@
+Epsilon Group
+
+
+Dr. Newman
+
+EECS 376/476 - Mobile Robotics
+
+
+April 13, 2017
+
+
+
+Lab 8: Jinx Hallway Navigation Methods
+
+
+
+We found out that by linking together previous nodes and modifying slightly the new nodes, we were able to get the robot 
+to move like in each of the three previous problem assignments. The hardest part was figuring out how to have the robot move 
+after undoing the e stop without already proceeding on it's path while e stopped.
+
+
+
+
+Open Loop Video: 
+https://youtu.be/SvhPfJVayzo
+
+Linear Steering Video: 
+https://youtu.be/KZvK-Mgdn7c
+
+Linear Steering with Odometry and AMCL: https://youtu.be/8cT5gUbOw9w  
+
+
+
+CODE: https://github.com/Trent0881/mr376lab/tree/master/lab7
+
+(download the lab7-l.zip file)
+
+
