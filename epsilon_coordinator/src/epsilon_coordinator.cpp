@@ -37,11 +37,11 @@ int main(int argc, char **argv) {
     ros::init(argc, argv, "epsilon_coordinator"); 
     ros::NodeHandle n;
 
-    ROS_INFO("epsilon_coordinator started; publishing to cmd and subscribing to fb rostopics!")
-    
-    ros::Publisher command = n.advertise<std_msgs::Int32>("Command_Topic", 1);                 // publisher 
+    ROS_INFO("epsilon_coordinator started; publishing to cmd and subscribing to fb rostopics!");
 
-    ros::Subscriber my_subscriber_object=n.subscribe("Feedback_Topic",1,FeedbackCallback);        //subscriber
+    ros::Publisher command = n.advertise<std_msgs::Int32>("cmd", 1);                 // publisher 
+
+    ros::Subscriber my_subscriber_object=n.subscribe("fb",1,FeedbackCallback);        //subscriber
     
     ros::Rate sleep(20);
     ros::Duration(1).sleep(); //delay 1 sec
